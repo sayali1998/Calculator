@@ -156,7 +156,7 @@ public void actionPerformed(ActionEvent ae)
 	{
 		var1=Integer.parseInt(t1.getText());	
 		ope='-';
-		msg="Substraction";
+		msg="Subtraction";
 		t1.setText("");
 	}
 	else if(str.equals("*"))
