@@ -149,49 +149,42 @@ public void actionPerformed(ActionEvent ae)
 	{
 		var1=Integer.parseInt(t1.getText());
 		ope='+';
-		msg="Addition";
 		t1.setText("");
 	}
 	else if(str.equals("-"))
 	{
 		var1=Integer.parseInt(t1.getText());	
 		ope='-';
-		msg="Substraction";
 		t1.setText("");
 	}
 	else if(str.equals("*"))
 	{
 		var1=Integer.parseInt(t1.getText());
 		ope='*';
-		msg="Multiplication";
 		t1.setText("");
 	}
 	else if(str.equals("/"))
 	{
 		var1=Integer.parseInt(t1.getText());
 		ope='/';
-		msg="Division";
 		t1.setText("");
 	}
 	else if(str.equals("%"))
 	{
 		var1=Integer.parseInt(t1.getText());
 		ope='%';
-		msg="Modulus";
 		t1.setText("");
 	}
 	else if(str.equals("x^n"))
 	{
 		var1=Integer.parseInt(t1.getText());
 		ope='^';
-		msg="Power";
 		t1.setText("");
 	}
 	else if(str.equals("x!"))
 	{
 		var1=Integer.parseInt(t1.getText());
 		ope='!';
-		msg="Not operation";
 		t1.setText("");
 	}
 	else if(str.equals("1/x"))
